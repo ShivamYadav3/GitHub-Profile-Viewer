@@ -16,7 +16,7 @@ function RepoDetail() {
   }, [id, Detail]);
 
   return (
-    <div className="flex justify-center items-center h-screen gap-y-5 border">
+    <div className="flex justify-center items-center h-screen gap-y-5 border dark:bg-black dark:text-white">
       <div className="flex flex-col gap-5 text-xl border-2 p-4 rounded-2xl">
         <div>
           <h2 className="font-bold text-2xl">Repository Details</h2>
@@ -45,9 +45,11 @@ function RepoDetail() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-300 inline-block w-32 flex justify-center rounded-lg p-1 ml-20 mt-10">
+        <div className="bg-slate-300  w-32 flex justify-center rounded-lg p-1 ml-20 mt-10">
           <Link to={`/profile/${id}`}>
-            <button className="text-2xl font-semibold">Profile</button>
+            <button className="text-2xl font-semibold dark:text-black">
+              Profile
+            </button>
           </Link>
         </div>
       </div>
