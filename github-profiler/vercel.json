@@ -1,24 +1,24 @@
 {
   "routes":[
     {
-    src: "/",
-    dest: <HomePage />,
+    "src": "/",
+    "dest": "/",
   },
   {
-    src: "profile/:id",
-    dest: <Profile />,
+    "src": "profile/:id",
+    "dest": "/">,
   },
   {
-    src: "/reposDetail/:id/:Detail",
-    dest: <RepoDetail />,
+    "src": "/reposDetail/:id/:Detail",
+    "dest": "/",
   },
   {
-    src: "/following/:id",
-    dest: <Following />,
+    "src": "/following/:id",
+    "dest": "/",
   },
   {
-    src: "/followers/:id",
-    dest: <Followers />,
+    "src": "/followers/:id",
+    "dest": "/",
   },
 
   ]
