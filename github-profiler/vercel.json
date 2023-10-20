@@ -6,7 +6,7 @@
   },
   {
     "src": "profile/:id",
-    "dest": "/">,
+    "dest": "/",
   },
   {
     "src": "/reposDetail/:id/:Detail",
